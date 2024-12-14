@@ -14,7 +14,7 @@ type Duration = {
   Current: boolean;
   dd_id: number;
   SelectedInd: number;
-  SchoolLevelIds: any[];
+  SchoolLevelIds: any[]; // FIXME (probably number[])
 };
 
 type Section = {
@@ -97,7 +97,7 @@ type Lti = {
   SharedSecret: string;
   CredentialsTypeId: number;
   OutcomesInd: boolean;
-  Parameters: any[];
+  Parameters: any[]; // TODO Assignment2/SecureGet.Lti.Parameters type
   LtiOauth2Ind: boolean;
   LineItemTag: string;
   LineItemResourceId: string;

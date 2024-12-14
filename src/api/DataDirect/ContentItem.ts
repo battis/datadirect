@@ -16,7 +16,7 @@ export type ContentItem = {
   FilesInProcessing: number;
   FilesProcessed: number;
   FriendlyFileName?: string | null;
-  GenericSettings?: any | null;
+  GenericSettings?: any | null; // TODO DataDirect/ContentItem.GenericSettings type
   HasCorruptedFile?: number | null;
   Headline?: string | null;
   HoverFileName?: string | null;
