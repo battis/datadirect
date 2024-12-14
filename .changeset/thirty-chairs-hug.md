@@ -1,5 +1,0 @@
----
-'datadirect': minor
----
-
-Intitial release
