@@ -16,7 +16,7 @@ export type ContentItem = {
   FilesInProcessing: number;
   FilesProcessed: number;
   FriendlyFileName?: string | null;
-  GenericSettings?: any | null; // FIXME type
+  GenericSettings?: any | null;
   HasCorruptedFile?: number | null;
   Headline?: string | null;
   HoverFileName?: string | null;
