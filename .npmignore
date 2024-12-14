@@ -1,0 +1,5 @@
+.*
+/eslint.config.js
+/pnpm-lock.yaml
+/src/
+/tsconfig.json
