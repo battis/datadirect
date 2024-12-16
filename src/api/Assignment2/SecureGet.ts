@@ -1,3 +1,5 @@
+export const endpoint = 'api/Assignment2/SecureGet';
+
 type Duration = {
   DurationId: number;
   SortOrder: number;
